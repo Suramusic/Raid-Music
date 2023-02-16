@@ -9,7 +9,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME, "BQEXCKwAXqk4HhKtxCM9Wo6moGonHQEMdG1e5uSZByeNwrPm_HMoQoeCCArFJF4PLbPqp5NPlKNVeaaSHQktG7yAiwGIiH2IqC6Dpeq0teJ7gc9TLGYhVViNW__Nrgj-Y20XCFdwst2XTqYCo_9vFJZ1pooyxA9hciA5in-kXe_OpZi4V5sznsesSh-kN0-As-_AYUmsX6GkTYmDfmpYxA1Xll5eBnQ17R56gteyguRb3f8O8in3Dv-VvBRVyAHioa33BW8-FJlBkJcO7hv5U9VjhT403uWyjkzqc5dBOYcAl8Kz-gEZn4Qcu7alf8_T9GRoWC0weZO0uJ0Bsp-JL2ZPhIXJKQAAAAExDRpeAA")
+SESSION_NAME = getenv("SESSION_NAME, ")
 BOT_TOKEN = getenv("BOT_TOKEN", "5920443941:AAG1UJMR9X7QvM-wUH617Bz8pU-MRqlpM8E")
 BOT_NAME = getenv("BOT_NAME", "LalluMusicBot")
 API_ID = int(getenv("API_ID", "18286764"))
